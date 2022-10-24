@@ -16,6 +16,7 @@ specifiers:
   eslint-plugin-promise: ^6.1.1
   eslint-plugin-react: ^7.31.10
   eslint-plugin-testing-library: ^5.9.1
+  eslint-plugin-use-encapsulation: ^1.1.0
   jsdom: ^20.0.1
   postcss: ^8.4.18
   prettier: 2.7.1
@@ -46,6 +47,7 @@ devDependencies:
   eslint-plugin-promise: 6.1.1_eslint@8.26.0
   eslint-plugin-react: 7.31.10_eslint@8.26.0
   eslint-plugin-testing-library: 5.9.1_wyqvi574yv7oiwfeinomdzmc3m
+  eslint-plugin-use-encapsulation: 1.1.0_eslint@8.26.0
   jsdom: 20.0.1
   postcss: 8.4.18
   prettier: 2.7.1
@@ -1708,6 +1710,14 @@ packages:
     transitivePeerDependencies:
       - supports-color
       - typescript
+    dev: true
+
+  /eslint-plugin-use-encapsulation/1.1.0_eslint@8.26.0:
+    resolution: {integrity: sha512-pYRh3krpHLPiYDOpmwuCSlmc4nbK4rGnepcpiLhxdal5fO8mfWVsS74NmMnxTMwOPmTAJTp6klBHukuvXp7I7A==}
+    peerDependencies:
+      eslint: '>=0.8.0'
+    dependencies:
+      eslint: 8.26.0
     dev: true
 
   /eslint-scope/5.1.1:
