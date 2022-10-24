@@ -40,7 +40,11 @@ This project uses the following architecture heavily inspired by Tania Rascia's 
   - `services` - All of our services (`.js`). Services are responsible for making API calls and returning data, for example (api.js).
   - `utils/` - All of our utility functions (`.js`). Utilities, helpers, constants, and the like.
 
----
+### Absolute Imports
+
+This project uses absolute imports for all of our files. This means that we can import files from any directory using the `@` prefix instead of relative paths (e.g. `import Button from '@/components/Button'` instead of `import Button from '../../components/Button'`).
+
+This works for any of the directories in `src/` as listed above. If you need to add more, see [`vite.config.js`](./vite.config.js).
 
 ## License
 
