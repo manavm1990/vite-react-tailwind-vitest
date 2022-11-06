@@ -37,8 +37,9 @@ This project uses the following architecture heavily inspired by Tania Rascia's 
   - `components/` - All of our React components (`.jsx`). Global shared/reusable components, such as layout (wrappers, navigation), form components, buttons.
   - `hooks/` - All of our custom React hooks (`.js`).
   - `routes/` - All of our React routes (`.jsx`). Each route is a 'page'.
-  - `services` - All of our services (`.js`). Services are responsible for making API calls and returning data, for example (api.js).
-  - `utils/` - All of our utility functions (`.js`). Utilities, helpers, constants, and the like.
+  - `services/` - All of our services (`.js`). Services are responsible for making API calls and returning data, for example (api.js). Or, maybe you have a service that is responsible for managing authentication (auth.js). Or, `localStorage` (storage.js). The stuff in here has consequences, that is, **side effects**.
+  - `types/` - If you're using TS, you probably know what this is for! :)
+  - `utils/` - All of our utility functions (`.js`). Utilities, helpers, constants, and the like. Unlike `services`, these are not responsible for side effects.
 
 ### Absolute Imports
 
@@ -55,5 +56,3 @@ This works for any of the directories in `src/` as listed above. If you need to 
 This project was bootstrapped with [create-vite](https://vitejs.dev/guide/).
 
 Like it? Give it a ⭐️ on [GitHub](https://github.com/manavm1990/vite-react-tailwind-vitest).
-
-Questions? Comments? Concerns? Find me on [Twitter](https://twitter.com/GoCodeFinity).
