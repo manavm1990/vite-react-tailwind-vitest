@@ -15,7 +15,7 @@ module.exports = {
     sourceType: "module",
   },
   plugins: ["testing-library", "use-encapsulation", "jest-dom", "react"],
-  rules: {},
+  rules: { "use-encapsulation/prefer-custom-hooks": 1 },
   settings: {
     react: {
       version: "detect",
