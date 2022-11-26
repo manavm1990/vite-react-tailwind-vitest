@@ -13,7 +13,6 @@
     "javascript": "javascriptreact"
   },
   "files.autoSave": "onFocusChange",
-  "files.trimTrailingWhitespace": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "javascript.validate.enable": false,
   "prettier.requireConfig": true
