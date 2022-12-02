@@ -5,7 +5,7 @@ This is a template for a React project using TailwindCSS and Vite/Vitest.
 ## Scripts
 
 - `npm start` - Starts the development server.
-- `npm test` - Runs the test suite with [Vitest](https://vitest.dev/guide/cli.html#commands).
+- `npm test` - Runs the test suite with [Vitest](https://vitest.dev/guide/cli.html#commands). React Testing Library is included along with `@testing-library/user-event`.
 
 See [package.json](./package.json) for more scripts
 
