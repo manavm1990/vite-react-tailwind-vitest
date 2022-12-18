@@ -38,7 +38,7 @@ This project uses the following architecture heavily inspired by Tania Rascia's 
   - `hooks/` - All of our custom React hooks (`.js`).
   - `routes/` - All of our React routes (`.jsx`). Each route is a 'page'.
   - `services/` - All of our services (`.js`). Services are responsible for making API calls and returning data, for example (api.js). Or, maybe you have a service that is responsible for managing authentication (auth.js). Or, `localStorage` (storage.js). The stuff in here has consequences, that is, **side effects**.
-  - `types/` - If you're using TS, you probably know what this is for! :)
+  - `tests/` - All of our tests (`.test.jsx`).
   - `utils/` - All of our utility functions (`.js`). Utilities, helpers, constants, and the like. Unlike `services`, these are not responsible for side effects.
 
 ### Absolute Imports
