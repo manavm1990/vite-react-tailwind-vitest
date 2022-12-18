@@ -11,7 +11,9 @@ See [package.json](./package.json) for more scripts
 
 ## Linting and Prettier
 
-This project uses `"standard"` linting with the recommended for `react` and `"prettier"`.
+This project uses `"standard"` linting with the recommended for `react` and `"prettier"`. This includes recommendations for **rules of hooks** and **a11y.**
+
+It also includes warnings regarding [encapsulating React hooks](https://www.npmjs.com/package/eslint-plugin-use-encapsulation).
 
 It also lints `"testing-library"` and `"jest-dom"`.
 
