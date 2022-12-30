@@ -28,3 +28,6 @@ dist-ssr
 
 # Whenever using `json-server`
 db.json
+
+# vitest
+coverage
