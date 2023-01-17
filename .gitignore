@@ -25,3 +25,9 @@ dist-ssr
 *.sw?
 
 *lock.*
+
+# Whenever using `json-server`
+db.json
+
+# vitest
+coverage
