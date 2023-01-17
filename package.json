@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "vite build",
+    "dep-graph": "depcruise --exclude \"^node_modules\" --output-type dot src | dot -T svg > dependency-graph.svg",
     "preview": "vite preview",
     "start": "vite",
     "test": "vitest",
@@ -25,6 +26,7 @@
     "@types/react-dom": "^18.0.9",
     "@vitejs/plugin-react-swc": "^3.0.0",
     "autoprefixer": "^10.4.13",
+    "dependency-cruiser": "^12.5.0",
     "eslint": "^8.27.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-standard": "^17.0.0",
