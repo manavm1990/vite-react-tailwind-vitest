@@ -51,6 +51,8 @@ This works for any of the directories in `src/` as listed above. If you need to 
 
 ### Dependency Graph
 
+`npm run dep-graph`
+
 This project includes `"dependency-cruiser"`. You can generate a dependency graph by running `npm run dep-graph`. This will be in SVG format by default. You can change this in the `package.json` file.
 
 **Note:** You **must** have [Graphviz](https://graphviz.org/download/) installed for this to work. You can install it using [Homebrew](https://brew.sh/) on macOS with `brew install graphviz`.
