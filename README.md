@@ -38,6 +38,7 @@ This project uses the following architecture heavily inspired by Tania Rascia's 
 - `src/` - All of our source code.
   - `components/` - All of our React components (`.jsx`). Global shared/reusable components, such as layout (wrappers, navigation), form components, buttons.
   - `hooks/` - All of our custom React hooks (`.js`).
+  - `layouts/` - These are components that wrap our **routes** and provide consistent page layouts. For example, a layout for a dashboard page might include a sidebar and header. A layout for a login page might not.
   - `routes/` - All of our React routes (`.jsx`). Each route is a 'page'.
   - `services/` - All of our services (`.js`). Services are responsible for making API calls and returning data, for example (api.js). Or, maybe you have a service that is responsible for managing authentication (auth.js). Or, `localStorage` (storage.js). The stuff in here has consequences, that is, **side effects**.
   - `tests/` - All of our tests (`.test.jsx`).
