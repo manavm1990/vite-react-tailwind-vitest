@@ -9,7 +9,7 @@ module.exports = {
     "plugin:react/jsx-runtime",
     "plugin:react-hooks/recommended",
     "plugin:jsx-a11y/recommended",
-    'plugin:testing-library/react',
+    "plugin:testing-library/react",
     "plugin:jest-dom/recommended",
     "standard",
     "prettier",
@@ -20,7 +20,16 @@ module.exports = {
     sourceType: "module",
   },
   plugins: ["react", "use-encapsulation", "testing-library", "jest-dom"],
-  rules: { "use-encapsulation/prefer-custom-hooks": 1 },
+  rules: {
+    "no-console": [
+      "warn",
+      {
+        allow: ["error", "info", "table", "warn"],
+      },
+    ],
+    "no-unused-vars": ["error", { destructuredArrayIgnorePattern: "^_" }],
+    "use-encapsulation/prefer-custom-hooks": 1,
+  },
   settings: {
     react: {
       version: "detect",
