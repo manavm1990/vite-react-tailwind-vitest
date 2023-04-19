@@ -28,6 +28,7 @@ module.exports = {
       },
     ],
     "no-unused-vars": ["error", { destructuredArrayIgnorePattern: "^_" }],
+    "react/prop-types": "off",
     "use-encapsulation/prefer-custom-hooks": 1,
   },
   settings: {
